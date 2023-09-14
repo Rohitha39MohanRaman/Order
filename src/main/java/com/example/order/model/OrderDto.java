@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class OrderDto {
 private int orderId;
 private String orderName;
+	private String orderAddress;
 public OrderDto() {
 	super();
 }
